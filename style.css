@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.primary {
+    color: #2C4832;
+}
+
+.secondary {
+    color: #EAF0ED;
+}
+
+.bg-secondary {
+    background-color: #EAF0ED;
+}
+
+.bg-primary {
+    background-color: #2C4832;
+}
+
+.border-secondary {
+    border: 1px solid #EAF0ED;
+
+}
+
+.bg-img {
+    background-position: 0 0;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.font-s {
+    font-size: 16px;
+}
+
+.font-m {
+    font-size: 20px;
+}
+
+.font-l {
+    font-size: 24px;
+}
+
+.custom-link {
+    display: block;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.mb-s {
+    margin-bottom: 20px;
+}
+
+.mb-m {
+    margin-bottom: 30px;
+}
+
+.mb-l {
+    margin-bottom: 60px;
+}
+
+.mt-m {
+    margin-top: 30px;
+}
+
+.mr-l {
+    margin-right: 60px;
+}
+
+.p-s {
+    padding: 10px;
+}
+.pt-s {
+    padding-top: 14px;
+}
+
+.pb-s {
+    padding-bottom: 14px;
+}
+
+.pt-m {
+    padding-top: 16px;
+}
+
+.pb-m {
+    padding-bottom: 16px;
+}
+
+/* 個別樣式 */
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;width: auto;
+}
+
+.menu-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navText {
+    font: normal normal 600 16px PingFang TC;
+}
+
+.banner {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/banner.png);
+    height: 496px;
+    width: 100%;
+}
+
+.flex-mainBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideBar {
+    width: 32%;
+}
+
+.products {
+    width: 65%;
+}
+
+.card {
+    width: 47.5%;
+}
+
+.sideBar ul {
+    font: normal normal 600 24px/40px PingFang TC;
+}
+
+.flex-products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tag {
+    writing-mode: vertical-lr;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font: normal normal 600 16px/20px PingFang TC;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 20px;
+    top: 0;
+
+}
+
+.favorite {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    cursor: pointer;
+}
+
+.productImg {
+    height: 315px;
+    position: relative;
+}
+
+.flex-text {
+    display: flex;justify-content: space-between;
+    width: 100%;
+}
+
+.productName, .productPrice{
+    border: 1px solid #EAF0ED;
+
+    display: inline-block;
+}
+
+.productName {
+    width: 60%;
+    font: normal normal 300 20px/20px PingFang TC;
+}
+
+.productPrice {
+    width: 40%;
+    font: normal normal 600 20px/24px PingFang TC;
+}
+
+.addCart {
+    font: normal normal 600 24px/20px PingFang TC;
+}
+
+.pages {
+    text-align: right;
+}
+
+.page {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+}
+
+.pageLink {
+    display: block;
+    text-align: center;
+    font: normal normal 300 20px/60px PingFang TC;
+}
+
+.pageLink img {
+    vertical-align: middle;
+}
